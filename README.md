@@ -19,11 +19,13 @@ The system has an intelligent terrarium, an intelligent power distributor and un
 
 Venus has a size, mass and internal composition similar to Earth, however, everything else that makes up this interesting planet makes reconnaissance and exploration missions impossible for researchers and scientists who seek to know more about its composition of its atmosphere and its evolution, gas composition, among others.
 
-![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.png)
+![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)
 
 Space research, and therefore human curiosity, has no limits, so atmospheric, pressure and temperature conditions have not been an excuse to carry out space missions related to Venus.
 
 Our team's challenge is to develop an energy storage system for a surface lander or a rover that stays on the surface of Venus for at least 60 days, thus providing a solution for viable long-term energy storage.
+
+![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)
 
 The objectives that the competition exposes us are based on selecting technologies that are consistent with the challenge, the things that we had in mind when developing the solution are the following:
 
@@ -47,6 +49,8 @@ Missions to venus take place since 1961 with Venera 1, however, the first missio
 One of the most important missions was that of Venera 4, it was a probe in the Soviet Venera program for the exploration of Venus. This probe consisted of a special landing module to enter the atmosphere of Venus.
 
 This mission allowed us to learn about the temperature and atmospheric composition of Venus in a much more precise way.
+
+![Venera 4 model](./images/venera.jpg)
 
 Missions like this one are state of the art for this research, since although they differ from energy storage, they allow us to investigate previously proven components, such as the sodium-sulfur batteries used in the Sodium Sulfur Battery Cell Experiment (NaSBE) in 1996 through a paper published by Ford Motor Company. 
 
@@ -197,9 +201,6 @@ Erik J. Brandon, 1,∗,z and Mario Destephen2
 
 
 https://www.haynesintl.com/tech-briefs/high-temperature-alloys/high-temperature-alloy-applications/high-temperature-alloys-for-industrial-applications-(H-3116)
-
-
-https://www.sciencedirect.com/topics/materials-science/high-temperature-alloys
 
 
 https://www.sciencedirect.com/topics/materials-science/high-temperature-alloys
