@@ -86,6 +86,8 @@ Our investigation began with the following sections:
 - Lithium Carbonate Battery
 - Lithium sulfide batteries
 
+![Sodium sulfur battery cell diagram](./images/NaS.png)
+
 Assessing the sections exposed in the competition, and the following:
 
 - Storage Capacity energy
@@ -133,7 +135,7 @@ When reacting with lithium (the anode), the sulfur prevents the formation of Li 
 
 A favorable selection for electrolyte solvents is the **dimethyl ether (DME)**, and **1, 3-dioxolane (DOL)**. But its proved that the best choice is the **Lithium trifluoromethanesulfonate (LiSO<sub>3</sub>CF<sub>3</sub>)**
 
-### 4. Camera
+### 4. Chamber
 
 Due to the extreme environment of Venus, the batteries needs to be located in a 
 camera capable of resisting high temperatures, pressure, and its acidic 
