@@ -186,10 +186,9 @@ These batteries consists of 3 main parts, which are presented in the following w
 ![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)
 **Figure TODO** - Sodium-sulfur battery working diagram, extracted from [NGK INSULATORS, LTD](http://www.unido.or.jp/en/technology_db/4394/).
 
-
 During the discharge stage, the specific capacity tends to increase while the voltage is decreasing. It reaches a point where it reaches the maximum capacity, but the voltage would be so low that it could no longer maintain its power to feed the systems. 
 
-![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)
+![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)<br />
 **Figure TODO** - Sodium-sulfur battery voltage-specific capacity graphical behavior, extracted from [Research Progress toward Room Temperature Sodium Sulfur Batteries: A Review](https://www.mdpi.com/1420-3049/26/6/1535)
 
 ### 1. Cathode materials 🚧🚧🚧🚧
