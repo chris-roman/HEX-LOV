@@ -1,8 +1,24 @@
 # LIVE: The Light in Venus Exploration 
 
-## Team
+## Table of Contents
 
-![Team!](./images/newhex.png)
+- [LIVE: The Light in Venus Exploration](#live-the-light-in-venus-exploration)
+  - [Table of Contents](#table-of-contents)
+  - [Team](#team)
+  - [Introduction to the problem](#introduction-to-the-problem)
+  - [State-of-Art](#state-of-art)
+    - [**Venera Missions**](#venera-missions)
+    - [**Automaton Rover for Extreme Environments (AREE)**](#automaton-rover-for-extreme-environments-aree)
+  - [Storage and Source Selection](#storage-and-source-selection)
+  - [Materials Selection](#materials-selection)
+  - [Solution](#solution)
+    - [Calculations](#calculations)
+    - [Design and working principles](#design-and-working-principles)
+  - [Conclusion](#conclusion)
+  - [Recommendations](#recommendations)
+  - [References](#references)
+
+## Team
 
 <br>
 <div align="center">
@@ -26,21 +42,21 @@ Thank you for reading! <3
 
 Venus has a size, mass and internal composition similar to Earth, however, everything else that makes up this interesting planet makes reconnaissance and exploration missions impossible for researchers and scientists who seek to know more about its composition of its atmosphere and its evolution, gas composition, among others.<sup>[2](https://solarsystem.nasa.gov/news/1519/venus-resources/?page=0&per_page=40&order=created_at+desc&search=&tags=Venus&category=324)</sup>
 
-![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)  
-
 <br>
 <div align="center">
 <img src="./images/venus.jpg" alt="The second planet from the Sun and Earth's closest planetary neighbor, Venus." height="600px">
 </div>
 <br>
 
+<center>
+
 **Figure 1** - Venus surface, extracted from [NASA Venus Resources](https://solarsystem.nasa.gov/news/1519/venus-resources/?page=0&per_page=40&order=created_at+desc&search=&tags=Venus&category=324).
+
+</center>
 
 Space research, and therefore human curiosity, has no limits, so atmospheric, pressure and temperature conditions have not been an excuse to carry out space missions related to Venus.
 
 Our team's challenge is to develop an energy storage system for a surface lander or a rover that stays on the surface of Venus for at least 60 days, thus providing a solution for viable long-term energy storage.
-
-![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)  
 
 <br>
 <div align="center">
@@ -48,7 +64,11 @@ Our team's challenge is to develop an energy storage system for a surface lander
 </div>
 <br>
 
+<center>
+
 **Figure 2** - The Apollo 16 Extended Apollo Lunar Module
+
+</center>
 
 The objectives that the competition exposes us are based on selecting technologies that are consistent with the challenge, the things that we had in mind when developing the solution are the following:
 
@@ -75,21 +95,22 @@ One of the most important missions was that of Venera 4. It consisted of a probe
 
 This mission allowed us to learn about the temperature and atmospheric composition of Venus in a much more precise way.
 
-![Venera 4 model](./images/venera.jpg)
-**Figure 3** - Venera 4 model.
-
 <br>
 <div align="center">
 <img src="./images/venera.jpg" alt="Venera 4 model" height="600px">
 </div>
 <br>
 
+<center>
+
+**Figure 3** - Venera 4 model.
+
+</center>
+
 Missions like this one are state of the art for this research, since, although they differ from energy storage, they allow us to investigate previously proven 
 components, such as the sodium-sulfur batteries used in the Sodium Sulfur Battery Cell Experiment (NaSBE) in 1996 through a paper published by Ford Motor Company.<sup>[5](https://ntrs.nasa.gov/api/citations/19970013741/downloads/19970013741.pdf)</sup>
 
 ### **Automaton Rover for Extreme Environments (AREE)**
-
-![Automaton Rover for Extreme Environments (AREE)](./images/aree.png)
 
 <br>
 <div align="center">
@@ -97,7 +118,11 @@ components, such as the sodium-sulfur batteries used in the Sodium Sulfur Batter
 </div>
 <br>
 
+<center>
+
 **Figure 4** - Automaton Rover for Extreme Environments (AREE) graphical representation.
+
+</center>
 
 NASA Jet Propulsion Laboratory designed a concept of automaton rover based on ancient mechanical computers with modern manufacturing technology to enable the exploration of Venus, known for being one of the most extreme environments in the Solar System.<sup>[6](https://www.nasa.gov/feature/automaton-rover-for-extreme-environments-aree/)</sup>
 
@@ -106,8 +131,6 @@ AREE uses a hybrid energy storage system made up of a Composite Spring and Sodiu
 ## Storage and Source Selection
 
 To promote future missions such as DAVINCI and Zephyr, our team set out to investigate the different types of energy storage, based on the new explorations that need to be carried out on the surface of Venus.
-
-![Surface of Venus](./images/surface.jpg)
 
 <br>
 <div align="center">
@@ -125,15 +148,17 @@ Our investigation began with the following sections:
 - Lithium Carbonate Battery
 - Lithium sulfide batteries
 
-![Sodium sulfur battery cell diagram](./images/NaS.png)
-
 <br>
 <div align="center">
 <img src="./images/NaS.png" alt="Sodium sulfur battery cell diagram" height="600px">
 </div>
 <br>
 
+<center>
+
 **Figure 5** - Diagram of the Sodium sulfur battery cell diagram, extracted from [SODIUM SULFUR BATTERY CELL EXPERIMENT (NaSBE)](https://ntrs.nasa.gov/api/citations/19970013741/downloads/19970013741.pdf)
+
+</center>
 
 Assessing the sections exposed in the competition, and the following:
 
@@ -174,19 +199,19 @@ These batteries consist of 3 main parts, which are presented in the following wo
 
 Because of the relative impermeability of the solid electrolyte, the self-discharge rate of the NaS battery is extremely low. <sup>[8](https://arc.aiaa.org/doi/abs/10.2514/1.41886?journalCode=jpp#:~:text=Three%20well%2D%20developed%20battery%20chemistries,qualification%20readiness%20for%20aerospace%20applications.)</sup>
 
-![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)
-
 <br>
 <div align="center">
 <img src="./images/sodium_sulfur_diagram.png" alt="Sodium-sulfur battery diagram" height="600px">
 </div>
 <br>
 
+<center>
+
 **Figure 6** - Sodium-sulfur battery working diagram, extracted from [NGK INSULATORS, LTD](http://www.unido.or.jp/en/technology_db/4394/).
 
-During the discharge stage, the specific capacity tends to increase while the voltage is decreasing. It reaches a point where it reaches the maximum capacity, but the voltage would be so low that it could no longer maintain its power to feed the systems. 
+</center>
 
-![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)
+During the discharge stage, the specific capacity tends to increase while the voltage is decreasing. It reaches a point where it reaches the maximum capacity, but the voltage would be so low that it could no longer maintain its power to feed the systems. 
 
 <br>
 <div align="center">
@@ -194,7 +219,11 @@ During the discharge stage, the specific capacity tends to increase while the vo
 </div>
 <br>
 
+<center>
+
 **Figure 7** - Sodium-sulfur battery voltage-specific capacity graphical behavior, extracted from [Research Progress toward Room Temperature Sodium Sulfur Batteries: A Review](https://www.mdpi.com/1420-3049/26/6/1535)
+
+</center>
 
 Also, but not least, due to the extreme environment of Venus, the batteries needs to be located in a camera capable of resisting high temperatures, pressure, and its acidic atmosphere. For this task, the material selected was **Inconel 718** allow, which is a high-strength, corrosion resistant nickel chromium material that can be used at -423 °F at 1300 °F (commonly used for aerospace applications).<sup>[11](https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf)</sup> This material also would be implemented as the cover for the prototype black halo, which will be depicted later on. 
 
@@ -206,12 +235,16 @@ This section will consist of two main parts: the **Calculations** subsection, in
 
 ### Calculations
 
-The properties of the selected battery, sodium-sulphur, are shown in this table, extracted from the [Energy Storage Technologies for Future Planetary Science Missions, page. 44](https://solarsystem.nasa.gov/resources/549/energy-storage-technologies-for-future-planetary-science-missions/):
+The properties of the selected battery, sodium-sulpur, are shown in this table, extracted from the [Energy Storage Technologies for Future Planetary Science Missions, page. 44](https://solarsystem.nasa.gov/resources/549/energy-storage-technologies-for-future-planetary-science-missions/):
+
+<center>
 
 |           Characteristic            | Na-S |
 |-------------------------------------|------|
 |Specific Energy for Batteries (Wh/kg)|80-120|
 | Energy Density for Batteries (Wh/l) |90-150|
+
+</center>
 
 From the properties of a sodium-sulfur battery, we took their mean value and perform multiple calculations to obtain the parameters that the energy storage system needs to be designed. All these calculations can be seen in the Jupyter Notebook available in the repository of the project: [Project Repository](https://github.com/chris-roman/HEX-LOV)
 
@@ -227,11 +260,13 @@ To compare, the Perseverance rover, which is a massive mobile laboratory, can re
 </div>
 <br>
 
+<center>
+
 **Figure 8** - Energy depleted by the system in 60 days, in function of time (in hours).
 
-If the required energy of the system increases, then its number of batteries also has a proportional increment. The following plot shows the number of batteries required by the system in function of its total energy demanded.
+</center>
 
-![Number of batteries](./images/number_batteries.png)  
+If the required energy of the system increases, then its number of batteries also has a proportional increment. The following plot shows the number of batteries required by the system in function of its total energy demanded.
 
 <br>
 <div align="center">
@@ -239,8 +274,11 @@ If the required energy of the system increases, then its number of batteries als
 </div>
 <br>
 
+<center>
+
 **Figure 9** - Number of batteries required by the system, in function of the needed energy (in Watts).
 
+</center>
 
 ### Design and working principles
 
@@ -248,15 +286,17 @@ The LIVE system (Light in Venus Exploration) is an energy storage system that wo
 
 1. The adaptation of a bank of sodium-sulfur batteries to the landers of future space missions, we made the concept through the Venera 13 and 14 model and with an energy estimate through exhausting a research exercise that we will develop later in this document.
 
-![Venera 14](./images/venera_13_14.jpg)
-
 <br>
 <div align="center">
 <img src="./images/venera_13_14.jpg" alt="Venera 14" height="500px">
 </div>
 <br>
 
+<center>
+
 **Figure 10** - Venera 14 3D model, extracted from [TURBOSQUID](https://www.turbosquid.com/3d-models/venera13-venera14-space-probe-3d-model-1865382)
+
+</center>
 
 This system has a quantity of 5,214 sodium-sulfur batteries with the capacity to supply a demand expressed in the graphs attached to this web page for just over 60 days. This system is compatible with future space missions such as DAVINCI, a mission that will send a probe to Venus to collect much more information than we have collected in the past 30 years.
 
@@ -264,19 +304,31 @@ Although this battery bank appears to have a uniform body, the batteries and the
 
 ![side_view_1](./images/aerea1.png)  
 
+<center>
+
 **Figure 11** - LIVE 3D Model, side view
+
+</center>
 
 We achieve this through location points located in the batteries and some grooves that manage to close the circuit when they are placed, in the event of an abrupt collision, the battery bank has an internal system that rejects these batteries (given their lack of contact) and thus closes the circuit at the next station.
 
 ![battery_3D_view](./images/bat.png)  
 
+<center>
+
 **Figure 12** - LIVE 3D Model, battery view
+
+</center>
 
 This battery bank is asymmetrical, allowing us to see ourselves supported by the Venera 14 at its very base and without providing major complications in its "launching mass", since LIVE contributes approximately 1,100 pounds to the general system.
 
 ![side_view_2](./images/aerea2.png)  
 
+<center>
+
 **Figure 13** - LIVE 3D Model, side view 
+
+</center>
 
 The implementation of this system gives us the possibility of obtaining information from Venus for more than 60 days, invaluable information since previously different probes (Mariner and Venera) were sent intermittently on different missions to collect information, however, these used to last less from one hour to less than 20 minutes.
 
@@ -284,15 +336,23 @@ Our goal is to provide a solution that can scale those times and continue to rec
 
 ![top_view_3](./images/aerea3.png)  
 
+<center>
+
 **Figure 14** - LIVE 3D Model, top view
 
-2. The second concept that can take place with this research is called OASIS, since it turns out to be a battery bank that makes a landing as well as landers and probes to provide energy to future explorations and the rovers that are part of them.
+</center>
+
+1. The second concept that can take place with this research is called OASIS, since it turns out to be a battery bank that makes a landing as well as landers and probes to provide energy to future explorations and the rovers that are part of them.
 
 It has 12,170 batteries that can supply 100 Wh/Kg (the same batteries as the first concept, more information in the other). The way that the rovers have to feed is through the extremities that they use to hold the scientific instruments that in the case of perseverance are several, instead of holding these sensors, they would only use one extremity to connect to the OASIS, having the female connector and OASIS, the male can make a locating connection due to the design of the fit of these.
 
 ![Oasis image](./images/oasis1.png) 
 
-**Figure 14** - LIVE 3D Model, several units deployed in the OASIS.
+<center>
+
+**Figure 15** - LIVE 3D Model, several units deployed in the OASIS.
+
+</center>
 
 The rovers would have to be programmed for a scanning radius of no more than 2,000 feet, since the technology with which the rovers will recognize OASIS would be UWB.
 
@@ -302,15 +362,28 @@ With the implementation of this technology, the Rovers will be able to determine
 
 ![Oasis image](./images/oasis2.png)
 
-**Figure 15** - LIVE 3D Model, several units deployed in the OASIS.
+<center>
 
+**Figure 16** - LIVE 3D Model, several units deployed in the OASIS.
+
+</center>
 
 ## Conclusion
 
-The proposed model is capable of being deployed in two ways that could potentially support two system paradigms: a **Lander system** and a **Rover system**. The former is meant to feed a single Lander unit for several days while resisting against the harsh conditions of the Venus atmosphere. It consists of nearly 5000 unit sodium-sulfur batteries (each one of 100 Wh/kg) that withstands the Lander for 60 days. By the other hand, the **Rover system** consists of a large set of battery packages, each unit  
+The proposed model is capable of being deployed in two ways that could potentially support two system paradigms: a **Lander system** and a **Rover system**. The former is meant to feed a single Lander unit for several days while resisting against the harsh conditions of the Venus atmosphere. It consists of nearly 5,000 unit sodium-sulfur batteries (each one of 100 Wh/kg) that withstands the Lander for 60 days. By the other hand, the **Rover system** consists of a large set of battery packages, each unit with the same features of the aforementioned, but each "oasis" is based on 12,000, large enough to feed several Rover units around. One great advantage of the "oasis" is that it has enabled UWB communication that allows to establish a direct link with any nearby Rover.
 
+Both paradigms allow to deploy any of these systems based on the scientific needs and future explorations. Even if the environment is extreme and presents such high difficulties for letting scientists research further, there is always a possibility in with technological advances can withstand such problems. Every year, science-materials fields create new materials that keep growing in physical resistance (such as corrosion, pressure, temperature, electric field, etc.), and the combination of these new formulae allows creating way more advance equipment, battery included. It is just a matter of time for humanity to get solutions that reduces these constraints substantially further. 
 
-## RECOMENDATIONS
+That said, the first step is to guarantee any device to recollect as much information as possible, so another new generation can establish colonies for greater purposes, and who knows if another mission is destined for changing the environment itself :)  
+
+## Recommendations
+
+As future lines, it is important to highlight some points.
+
+Research in relation to lithium-sulfide batteries and Lithium Carbonate Battery missions in the space context needs to continue to be developed, the energy superiority of these batteries is quite remarkable and would contribute a lot for long-lasting batteries. Not to mention that they are lighter than most options for space missions.
+
+We have met many technological challenges since we went to Venus for the last time, this technological improvement represents a wave of improvements that can be implemented in new missions, among these are the use of more efficient batteries, UWB, new materials and chemical processes of use of the CO2 that embraces 96% of Venus.
+
 
 ## References
 
