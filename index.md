@@ -2,7 +2,13 @@
 
 ## Team
 
-![Team!](./images/newhex.png)\  
+<br>
+<div align="center">
+<img src="./App_S1.jpg" alt="WiFi" height="500px">
+</div>
+<br>
+
+![Team!](./images/newhex.png)  
 
 We are a team of mechatronics engineers that seeks to solve space problems, and in this competition, NASA gives us the opportunity to solve them.
 
@@ -20,7 +26,7 @@ Thank you for reading! <3
 
 Venus has a size, mass and internal composition similar to Earth, however, everything else that makes up this interesting planet makes reconnaissance and exploration missions impossible for researchers and scientists who seek to know more about its composition of its atmosphere and its evolution, gas composition, among others.<sup>[2](https://solarsystem.nasa.gov/news/1519/venus-resources/?page=0&per_page=40&order=created_at+desc&search=&tags=Venus&category=324)</sup>
 
-![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)\  
+![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)  
 
 **Figure 1** - Venus surface, extracted from [NASA Venus Resources](https://solarsystem.nasa.gov/news/1519/venus-resources/?page=0&per_page=40&order=created_at+desc&search=&tags=Venus&category=324).
 
@@ -28,7 +34,7 @@ Space research, and therefore human curiosity, has no limits, so atmospheric, pr
 
 Our team's challenge is to develop an energy storage system for a surface lander or a rover that stays on the surface of Venus for at least 60 days, thus providing a solution for viable long-term energy storage.
 
-![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)\  
+![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)  
 
 **Figure 2** - The Apollo 16 Extended Apollo Lunar Module
 
@@ -65,7 +71,7 @@ components, such as the sodium-sulfur batteries used in the Sodium Sulfur Batter
 
 ### **Automaton Rover for Extreme Environments (AREE)**
 
-![Automaton Rover for Extreme Environments (AREE)](./images/aree.png)\  
+![Automaton Rover for Extreme Environments (AREE)](./images/aree.png)
 
 **Figure 4** - Automaton Rover for Extreme Environments (AREE) graphical representation.
 
@@ -77,7 +83,7 @@ AREE uses a hybrid energy storage system made up of a Composite Spring and Sodiu
 
 To promote future missions such as DAVINCI and Zephyr, our team set out to investigate the different types of energy storage, based on the new explorations that need to be carried out on the surface of Venus.
 
-![Surface of Venus](./images/surface.jpg)\  
+![Surface of Venus](./images/surface.jpg)
 
 This research takes place on the resources provided for the competition, the experience we have accumulated participating in the previous years and the professional knowledge that we were able to apply in academic investigation.
 
@@ -89,7 +95,7 @@ Our investigation began with the following sections:
 - Lithium Carbonate Battery
 - Lithium sulfide batteries
 
-![Sodium sulfur battery cell diagram](./images/NaS.png)\  
+![Sodium sulfur battery cell diagram](./images/NaS.png)
 
 **Figure 5** - Diagram of the Sodium sulfur battery cell diagram, extracted from [SODIUM SULFUR BATTERY CELL EXPERIMENT (NaSBE)](https://ntrs.nasa.gov/api/citations/19970013741/downloads/19970013741.pdf)
 
@@ -132,13 +138,13 @@ These batteries consist of 3 main parts, which are presented in the following wo
 
 Because of the relative impermeability of the solid electrolyte, the self-discharge rate of the NaS battery is extremely low. <sup>[8](https://arc.aiaa.org/doi/abs/10.2514/1.41886?journalCode=jpp#:~:text=Three%20well%2D%20developed%20battery%20chemistries,qualification%20readiness%20for%20aerospace%20applications.)</sup>
 
-![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)\  
+![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)
 
 **Figure 6** - Sodium-sulfur battery working diagram, extracted from [NGK INSULATORS, LTD](http://www.unido.or.jp/en/technology_db/4394/).
 
 During the discharge stage, the specific capacity tends to increase while the voltage is decreasing. It reaches a point where it reaches the maximum capacity, but the voltage would be so low that it could no longer maintain its power to feed the systems. 
 
-![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)\  
+![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)  
 
 **Figure 7** - Sodium-sulfur battery voltage-specific capacity graphical behavior, extracted from [Research Progress toward Room Temperature Sodium Sulfur Batteries: A Review](https://www.mdpi.com/1420-3049/26/6/1535)
 
@@ -165,13 +171,13 @@ The following plot illustrates the depletion of the total energy through 60 days
 
 To compare, the Perseverance rover, which is a massive mobile laboratory, can reach up to 900 watts during science activities. <sup>[TODO](https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/)</sup>
 
-![Energy depletion](./images/energy_depleted.png)\  
+![Energy depletion](./images/energy_depleted.png)  
 
 **Figure 8** - Energy depleted by the system in 60 days, in function of time (in hours).
 
 If the required energy of the system increases, then its number of batteries also has a proportional increment. The following plot shows the number of batteries required by the system in function of its total energy demanded.
 
-![Number of batteries](./images/number_batteries.png)\  
+![Number of batteries](./images/number_batteries.png)  
 
 **Figure 9** - Number of batteries required by the system, in function of the needed energy (in Watts).
 
@@ -182,7 +188,7 @@ The LIVE system (Light in Venus Exploration) is an energy storage system that wo
 
 1. The adaptation of a bank of sodium-sulfur batteries to the landers of future space missions, we made the concept through the Venera 13 and 14 model and with an energy estimate through exhausting a research exercise that we will develop later in this document.
 
-![Venera 14](./images/venera_13_14.jpg)\  
+![Venera 14](./images/venera_13_14.jpg)  
 
 **Figure 10** - Venera 14 3D model, extracted from [TURBOSQUID](https://www.turbosquid.com/3d-models/venera13-venera14-space-probe-3d-model-1865382)
 
@@ -190,19 +196,19 @@ This system has a quantity of 5,214 sodium-sulfur batteries with the capacity to
 
 Although this battery bank appears to have a uniform body, the batteries and the plates that join them have a particular packing, which allows them to continue operating despite damage to segments of the battery bank, allowing us to have a design that manages to work partially in case of mission criticality.
 
-![side_view_1](./images/aerea1.png)\  
+![side_view_1](./images/aerea1.png)  
 
 **Figure 11** - LIVE 3D Model, side view
 
 We achieve this through location points located in the batteries and some grooves that manage to close the circuit when they are placed, in the event of an abrupt collision, the battery bank has an internal system that rejects these batteries (given their lack of contact) and thus closes the circuit at the next station.
 
-![battery_3D_view](./images/bat.png)\  
+![battery_3D_view](./images/bat.png)  
 
 **Figure 12** - LIVE 3D Model, battery view
 
 This battery bank is asymmetrical, allowing us to see ourselves supported by the Venera 14 at its very base and without providing major complications in its "launching mass", since LIVE contributes approximately 1,100 pounds to the general system.
 
-![side_view_2](./images/aerea2.png)\  
+![side_view_2](./images/aerea2.png)  
 
 **Figure 13** - LIVE 3D Model, side view 
 
@@ -210,15 +216,15 @@ The implementation of this system gives us the possibility of obtaining informat
 
 Our goal is to provide a solution that can scale those times and continue to receive reliable results from the well-made and expensive devices that we send to this infernal planet called Venus.
 
-![top_view_3](./images/aerea3.png)\  
+![top_view_3](./images/aerea3.png)  
 
 **Figure 14** - LIVE 3D Model, top view
 
-1. The second concept that can take place with this research is called OASIS, since it turns out to be a battery bank that makes a landing as well as landers and probes to provide energy to future explorations and the rovers that are part of them.
+2. The second concept that can take place with this research is called OASIS, since it turns out to be a battery bank that makes a landing as well as landers and probes to provide energy to future explorations and the rovers that are part of them.
 
 It has 12,170 batteries that can supply 100 Wh/Kg (the same batteries as the first concept, more information in the other). The way that the rovers have to feed is through the extremities that they use to hold the scientific instruments that in the case of perseverance are several, instead of holding these sensors, they would only use one extremity to connect to the OASIS, having the female connector and OASIS, the male can make a locating connection due to the design of the fit of these.
 
-![Oasis image](./images/oasis1.png)\  
+![Oasis image](./images/oasis1.png) 
 
 **Figure 14** - LIVE 3D Model, several units deployed in the OASIS.
 
@@ -228,14 +234,17 @@ According to Johnson Space applied technology for the development of real-time l
 
 With the implementation of this technology, the Rovers will be able to determine their proximity to the different OASIS and, in turn, position themselves at the points to take energy from them, greatly prolonging their useful life and, therefore, exploration time.
 
-![Oasis image](./images/oasis2.png)\  
+![Oasis image](./images/oasis2.png)
 
 **Figure 15** - LIVE 3D Model, several units deployed in the OASIS.
 
 
 ## Conclusion
 
-The proposed
+The proposed model is capable of being deployed in two ways that could potentially support two system paradigms: a **Lander system** and a **Rover system**. The former is meant to feed a single Lander unit for several days while resisting against the harsh conditions of the Venus atmosphere. It consists of nearly 5000 unit sodium-sulfur batteries (each one of 100 Wh/kg) that withstands the Lander for 60 days. By the other hand, the **Rover system** consists of a large set of battery packages, each unit  
+
+
+## RECOMENDATIONS
 
 ## References
 
