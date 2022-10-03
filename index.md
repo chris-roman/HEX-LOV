@@ -222,9 +222,7 @@ From the properties of a sodium-sulfur battery, we took their mean value and per
 
 The following plot illustrates the depletion of the total energy through 60 days of the system, which is the minimum time required for this project. These lines represent the energy required by the system to complete all its functions.
 
-To compare, the Perseverance rover, which is a massive mobile laboratory, can reach up to 900 watts during science activities. <sup>[TODO](https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/)</sup>
-
-![Energy depletion](./images/energy_depleted.png)
+To compare, the Perseverance rover, which is a massive mobile laboratory, can reach up to 900 watts during science activities. <sup>[14](https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/)</sup>
 
 <br>
 <div align="center">
@@ -336,3 +334,4 @@ We have met many technological challenges since we went to Venus for the last ti
 - [11] [INCONEL® alloy 718 - SPECIAL METALS](https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf)
 - [12] [Real-time Locating System Uses Ultra-Wideband Radio Frequency Signals for Tracking - NASA](https://www.nasa.gov/centers/johnson/techtransfer/technology/MSC-24184-1-uwb-aoa-tracking.html)
 - [13] [Venus Planet](https://www.britannica.com/place/Venus-planet)
+- [14] [Mars 2020 Perseverance Launch Press Kit](https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/)
