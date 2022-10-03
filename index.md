@@ -199,12 +199,41 @@ During the discharge stage, the specific capacity tends to increase while the vo
 
 
 
-## Process Selection
+## Solution
+
+### Calculations
+
+The properties of the selected battery, Sodium-Sulphur, are shown in this table:
+
+|           Characteristic            | Na-S |
+|-------------------------------------|------|
+|Specific Energy for Batteries (Wh/kg)|80-120|
+| Energy Density for Batteries (Wh/l) |90-150|
+
+*Figure TODO* - Sodium-sulfur battery properties, extracted from [Energy Storage Technologies for Future Planetary Science Missions](https://solarsystem.nasa.gov/resources/549/energy-storage-technologies-for-future-planetary-science-missions/).
+
+From the properties of a Sodium-Sulphur battery, we took the their mean value 
+and perform multiple calculations to obtain the parameters that the energy 
+storage system needs to be designed. All this calculations can be seen in the
+Jupyter Notebook available in the repository of the project: [Project Repository](https://github.com/chris-roman/HEX-LOV)
+
+The following plot illustrates the depletion of the total energy through 60 
+days of the system, which is the minimum time required for this project. These 
+lines represent the energy required by the system to complete all its functions.
+
+To compare, the Perseverance rover, which is a massive mobile laboratory, can 
+reach up to 900 watts during science activities. <sup>[TODO](https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/)</sup>
+
+![Energy depletion](./images/energy_depleted.png)
+
+If the required energy of the system increases, then its number of batteries 
+also has a proportional increment. The following plot show the number of 
+batteries required by the system in function of its total energy demanded.
+
+![Number of batteries](./images/number_batteries.png)
 
 
-
-
-## Design
+### Design
 
 The LIVE system (Light in Venus Exploration) is an energy storage system that works through two concepts:
 
@@ -236,30 +265,26 @@ Our goal is to provide a solution that can scale those times and continue to rec
 
 ![Energy deplition](./images/energy_depleted.png) 🚧 Vista perfil
 
-### Working Principle
 
-## Solution
+2.- The second concept that can take place with this research is called OASIS, since it turns out to be a battery bank that makes a landing as well as landers and probes to provide energy to future explorations and the rovers that are part of them.
 
-The following plot illustrates the depletion of the total energy through 60 
-days of the system, which is the minimum time required for this project. These 
-lines represent the energy required by the system to complete all its functions.
+It has 12,170 batteries that can supply 100Wh/Kg (the same batteries as the first concept, more information in the other). The way that the rovers have to feed is through the extremities that they use to hold the scientific instruments that in the case of perseverance are several, instead of holding these sensors, they would only use one extremity to connect to the OASIS,
+Having the female connector and OASIS, the male can make a locating connection due to the design of the fit of these.
 
-To compare, the Perseverance rover, which is a massive mobile laboratory, can 
-reach up to 900 watts during science activities. <sup>[Perseverance Powe]
+The rovers would have to be programmed for a scanning radius of no more than 2,000 feet, since the technology with which the rovers will recognize OASIS is UWB.
 
-![Energy depletion](./images/energy_depleted.png)
+According to Johnson Space applied technology for the development of real-time locating system (RTLS) "It uses ultra-wideband (UWB) radio frequency signals for tracking. UWB is a low-power, carrier-free, ultra-wide bandwidth signal transmission that has 100 to 1,000 times finer time resolution than conventional narrowband radio frequencies.UWB also has a lower power spectral density, allowing it to coexist with other wireless communications systems, such as Wi-Fi and cellular.The system has a tracking resolution of less than 1 percent of a range up to 2,000 feet.The tracking methodology is a calculation consisting of Angle of Arrival (AoA) and Time Difference of Arrival (TDOA).Originally designed for use in tracking lunar and Mars rovers, robots, and astronauts during exploration missions where satellite navigation systems are not available, the technology has a number of terrestrial applications including long-range tracking of emergency personnel in remote or hostile environments ts. JSC has applied for patent protection for this technology".
 
-If the required energy of the system increases, then its number of batteries 
-also has a proportional increment. The following plot show the number of 
-batteries required by the system in function of its total energy demanded.
+With the implementation of this technology, the Rovers will be able to determine their proximity to the different OASIS and, in turn, position themselves at the points to take energy from them, greatly prolonging their useful life and, therefore, exploration time.
 
-![Number of batteries](./images/number_batteries.png)
+![Energy deplition](./images/energy_depleted.png) 🚧 Vista perfil
+
 
 ## Conclusion
 
 ## References
 
-- [VENERA 1](https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1961-003A)
+- [1] [Venera 1 - NASA](https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1961-003A)
 
 - [Automaton Rover for Extreme Environments (AREE)](https://www.nasa.gov/feature/automaton-rover-for-extreme-environments-aree/)
 - [Report: Automaton Rover for Extreme Environments](https://www.nasa.gov/sites/default/files/atoms/files/niac_2016_phasei_saunder_aree_tagged.pdf)
