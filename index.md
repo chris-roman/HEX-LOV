@@ -2,27 +2,19 @@
 
 ## Team
 
-We are a team of mechatronics engineers that seeks to solve space problems, and 
-in this competition, NASA gives us the opportunity to solve them.
+![Team!](./images/newhex.png)\  
+
+We are a team of mechatronics engineers that seeks to solve space problems, and in this competition, NASA gives us the opportunity to solve them.
 
 We developed an energy storage system based on sodium-sulfur batteries to 
-supply energy for missions to Venus for landers and rovers, making them able to 
-rely on energy resources for much longer than we have been able to achieve since 
-the first missions began in 1961 with the Venera 1. **REFERENCE TODO**
+supply energy for missions to Venus for landers and rovers, making them able to rely on energy resources for much longer than we have been able to achieve since the first missions began in 1961 with the Venera 1. (VENERA 1 **REFERENCE TODO**)
 
-This system consists of the same technology with two applications, the main one 
-being an independent energy storage system and the secondary one, a system that 
-could be installed in future missions to landers, in this case we referred to 
-the Venera lander 13 and 14, However, this alternative is functional 
-for future DAVINCI and Zephyr missions. 
+This system consists of the same technology with two applications, the main one being an independent energy storage system and the secondary one, a system that could be installed in future missions to landers, in this case we referred to the Venera lander 13 and 14, However, this alternative is functional for future DAVINCI and Zephyr missions. 
 
 We also propose a chemical-thermal process from which we can generate 
 energy thanks to the CO2 that represents 96% of the composition of the 
-atmosphere of Venus, in this way we strengthen our proposal for an independent 
-energy system (Light In Venus Explorations, from now on, LIVE) to power the rovers 
-in future missions, with the ability also for automatic robots to perform battery changes between the landers and LIVE.
+atmosphere of Venus, in this way we strengthen our proposal for an independent energy system (Light In Venus Explorations, from now on, LIVE) to power the rovers in future missions, with the ability also for automatic robots to perform battery changes between the landers and LIVE.
 
-![Team!](./images/newhex.png)
 
 We learned a lot, this has been one of the most demanding challenges for us in 
 scientific and investigative terms given the hostile conditions of Venus and 
@@ -38,8 +30,9 @@ exploration missions impossible for researchers and scientists who seek to know
 more about its composition of its atmosphere and its evolution, 
 gas composition, among others. **REFERENCE TODO**
 
-![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)
-**Figure TODO** - 
+![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)\  
+
+**Figure TODO** - Venus surface, extracted from [NASA Venus Resources](https://solarsystem.nasa.gov/news/1519/venus-resources/?page=0&per_page=40&order=created_at+desc&search=&tags=Venus&category=324).
 
 Space research, and therefore human curiosity, has no limits, so atmospheric, 
 pressure and temperature conditions have not been an excuse to carry out space 
@@ -49,7 +42,8 @@ Our team's challenge is to develop an energy storage system for a surface
 lander or a rover that stays on the surface of Venus for at least 60 days, thus 
 providing a solution for viable long-term energy storage.
 
-![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)
+![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)\  
+
 **Figure TODO** - The Apollo 16 Extended Apollo Lunar Module
 
 The objectives that the competition exposes us are based on selecting 
@@ -95,7 +89,8 @@ Battery Cell Experiment (NaSBE) in 1996 through a paper published by Ford Motor 
 
 ### **Automaton Rover for Extreme Environments (AREE)**
 
-![Automaton Rover for Extreme Environments (AREE)](./images/aree.png)
+![Automaton Rover for Extreme Environments (AREE)](./images/aree.png)\  
+
 **Figure TODO** - Automaton Rover for Extreme Environments (AREE) graphical representation.
 
 NASA Jet Propulsion Laboratory designed a concept of automaton rover based on 
@@ -116,7 +111,7 @@ To promote future missions such as DAVINCI and Zephyr, our team set out to inves
 different types of energy storage, based on the new explorations that need to 
 be carried out on the surface of Venus.
 
-![Surface of Venus](./images/surface.jpg)
+![Surface of Venus](./images/surface.jpg)\  
 
 This research takes place on the resources provided for the competition, the 
 experience we have accumulated participating in the previous years and the 
@@ -130,7 +125,8 @@ Our investigation began with the following sections:
 - Lithium Carbonate Battery
 - Lithium sulfide batteries
 
-![Sodium sulfur battery cell diagram](./images/NaS.png)
+![Sodium sulfur battery cell diagram](./images/NaS.png)\  
+
 **Figure TODO** - Diagram of the Sodium sulfur battery cell diagram, extracted from **REFERENCE TODO**
 
 Assessing the sections exposed in the competition, and the following:
@@ -181,9 +177,18 @@ being demonstrated in electric utility applications to serve as an
 energy storage system to store energy for use during peak demand
 periods. Such batteries have demonstrated hundreds of charge/discharge cycles with a low decrease in capacity. (Batteries for Venus Surface Operation **REFERENCE TODO**)
 
-These batteries consists of 3 main parts, which are presented in the following working diagram. 
+These batteries consists of 3 main parts, which are presented in the following working diagram:
 
-![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)
+- Cathode: An outer layer of sulfur as the base element.
+- Anode: The inner part composed of sodium, where the element reacts with the cathode via the electrolyte substance.
+- Electrolyte: It consists of a beta-alumina solid oxide. This electrolyte also serves as a separator between the
+liquid sodium anode and the liquid sulfur cathode. At operating temperatures above about 300 °C, sodium ions are mobile in the solid-electrolyte material.
+
+Because of the relative impermeability of
+the solid electrolyte, the self-discharge rate of the NaS battery is extremely low. (Batteries for Venus Surface Operation **REFERENCE TODO**)
+
+![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)\  
+
 **Figure TODO** - Sodium-sulfur battery working diagram, extracted from [NGK INSULATORS, LTD](http://www.unido.or.jp/en/technology_db/4394/).
 
 During the discharge stage, the specific capacity tends to increase while the voltage is decreasing. It reaches a point where it reaches the maximum capacity, but the voltage would be so low that it could no longer maintain its power to feed the systems. 
@@ -192,26 +197,7 @@ During the discharge stage, the specific capacity tends to increase while the vo
 
 **Figure TODO** - Sodium-sulfur battery voltage-specific capacity graphical behavior, extracted from [Research Progress toward Room Temperature Sodium Sulfur Batteries: A Review](https://www.mdpi.com/1420-3049/26/6/1535)
 
-### 1. Cathode materials 🚧🚧🚧🚧
 
-The material of excellence for this purpose is elemental sulfur due to its high theoretical specific capacity when combined with lithium, and the fact that it is very low cost and non-toxic.
-
-### 2. Anode materials 🚧🚧🚧🚧
-
-When reacting with lithium (the anode), the sulfur prevents the formation of Li dendrites in a great extent due to the dissolved polysulfides (PS). This prevents efficiency problems.
-
-### 3. Electrolyte 🚧🚧🚧🚧
-
-A favorable selection for electrolyte solvents is the **dimethyl ether (DME)**, and **1, 3-dioxolane (DOL)**. But its proved that the best choice is the **Lithium trifluoromethanesulfonate (LiSO<sub>3</sub>CF<sub>3</sub>)**.
-
-
-### 4. Chamber 🚧🚧🚧🚧 
-
-Due to the extreme environment of Venus, the batteries needs to be located in a 
-camera capable of resisting high temperatures, pressure, and its acidic 
-atmosphere. For this task, the material selected was **Inconel** alloy 718, which 
-is a high-strength, corrosion resistant nickel chromium material that can be 
-used at -423°F at 1300°F (commonly used for aerospace applications). <sup>[TODO](https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf)</sup>
 
 ## Process Selection
 
@@ -224,7 +210,9 @@ The LIVE system (Light in Venus Exploration) is an energy storage system that wo
 
 1.- The adaptation of a bank of sodium-sulfur batteries to the landers of future space missions, we made the concept through the Venera 13 and 14 model and with an energy estimate through exhausting a research exercise that we will develop later in this document.
 
-![Energy deplition](./images/energy_depleted.png) 🚧 la foto de venera va aquí
+![Venera 14](./images/venera_13_14.jpg)\  
+
+**Figure TODO** - Venera 14 3D model, extracted from [TURBOSQUID](https://www.turbosquid.com/3d-models/venera13-venera14-space-probe-3d-model-1865382)
 
 This system has a quantity of 5,214 sodium-sulfur batteries with the capacity to supply a demand expressed in the graphs attached to this web page for just over 60 days. This system is compatible with future space missions such as Davinci, a mission that will send a probe to Venus to collect much more information than we have collected in the past 30 years.
 
@@ -237,9 +225,9 @@ We achieve this through location points located in the batteries and some groove
 
 ![Energy deplition](./images/energy_depleted.png) 🚧 Foto batería
 
-This battery bank is asymmetrical, allowing us to see ourselves supported by the Veneras 14 at its very base and without providing major complications in its "launching mass", since LIVE contributes approximately 1,100 pounds to the general system.
+This battery bank is asymmetrical, allowing us to see ourselves supported by the Venera 14 at its very base and without providing major complications in its "launching mass", since LIVE contributes approximately 1,100 pounds to the general system.
 
-![Energy deplition](./images/energy_depleted.png) 🚧 Vista aerea 2
+![Venera 14](./images/energy_depleted.png) 🚧 Vista aerea 2
 
 The implementation of this system gives us the possibility of obtaining information from Venus for more than 60 days, invaluable information since previously different probes (Mariner and Veneras) were sent intermittently on different missions to collect information, however, these used to last less from one hour to less than 20 minutes.
 
@@ -270,6 +258,8 @@ batteries required by the system in function of its total energy demanded.
 ## Conclusion
 
 ## References
+
+- [VENERA 1](https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1961-003A)
 
 - [Automaton Rover for Extreme Environments (AREE)](https://www.nasa.gov/feature/automaton-rover-for-extreme-environments-aree/)
 - [Report: Automaton Rover for Extreme Environments](https://www.nasa.gov/sites/default/files/atoms/files/niac_2016_phasei_saunder_aree_tagged.pdf)
