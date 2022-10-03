@@ -2,13 +2,13 @@
 
 ## Team
 
+![Team!](./images/newhex.png)
+
 <br>
 <div align="center">
-<img src="./App_S1.jpg" alt="WiFi" height="500px">
+<img src="./images/newhex.png" alt="Team!" height="500px">
 </div>
 <br>
-
-![Team!](./images/newhex.png)  
 
 We are a team of mechatronics engineers that seeks to solve space problems, and in this competition, NASA gives us the opportunity to solve them.
 
@@ -28,6 +28,12 @@ Venus has a size, mass and internal composition similar to Earth, however, every
 
 ![The second planet from the Sun and Earth's closest planetary neighbor, Venus.](./images/venus.jpg)  
 
+<br>
+<div align="center">
+<img src="./images/venus.jpg" alt="The second planet from the Sun and Earth's closest planetary neighbor, Venus." height="600px">
+</div>
+<br>
+
 **Figure 1** - Venus surface, extracted from [NASA Venus Resources](https://solarsystem.nasa.gov/news/1519/venus-resources/?page=0&per_page=40&order=created_at+desc&search=&tags=Venus&category=324).
 
 Space research, and therefore human curiosity, has no limits, so atmospheric, pressure and temperature conditions have not been an excuse to carry out space missions related to Venus.
@@ -35,6 +41,12 @@ Space research, and therefore human curiosity, has no limits, so atmospheric, pr
 Our team's challenge is to develop an energy storage system for a surface lander or a rover that stays on the surface of Venus for at least 60 days, thus providing a solution for viable long-term energy storage.
 
 ![The Apollo 16 Extended Apollo Lunar Module, a lunar lander](./images/Apollo.jpg)  
+
+<br>
+<div align="center">
+<img src="./images/Apollo.jpg" alt="The Apollo 16 Extended Apollo Lunar Module, a lunar lander" height="600px">
+</div>
+<br>
 
 **Figure 2** - The Apollo 16 Extended Apollo Lunar Module
 
@@ -66,12 +78,24 @@ This mission allowed us to learn about the temperature and atmospheric compositi
 ![Venera 4 model](./images/venera.jpg)
 **Figure 3** - Venera 4 model.
 
+<br>
+<div align="center">
+<img src="./images/venera.jpg" alt="Venera 4 model" height="600px">
+</div>
+<br>
+
 Missions like this one are state of the art for this research, since, although they differ from energy storage, they allow us to investigate previously proven 
 components, such as the sodium-sulfur batteries used in the Sodium Sulfur Battery Cell Experiment (NaSBE) in 1996 through a paper published by Ford Motor Company.<sup>[5](https://ntrs.nasa.gov/api/citations/19970013741/downloads/19970013741.pdf)</sup>
 
 ### **Automaton Rover for Extreme Environments (AREE)**
 
 ![Automaton Rover for Extreme Environments (AREE)](./images/aree.png)
+
+<br>
+<div align="center">
+<img src="./images/aree.png" alt="Automaton Rover for Extreme Environments (AREE)" height="600px">
+</div>
+<br>
 
 **Figure 4** - Automaton Rover for Extreme Environments (AREE) graphical representation.
 
@@ -85,6 +109,12 @@ To promote future missions such as DAVINCI and Zephyr, our team set out to inves
 
 ![Surface of Venus](./images/surface.jpg)
 
+<br>
+<div align="center">
+<img src="./images/surface.jpg" alt="Surface of Venus" height="600px">
+</div>
+<br>
+
 This research takes place on the resources provided for the competition, the experience we have accumulated participating in the previous years and the professional knowledge that we were able to apply in academic investigation.
 
 Our investigation began with the following sections:
@@ -96,6 +126,12 @@ Our investigation began with the following sections:
 - Lithium sulfide batteries
 
 ![Sodium sulfur battery cell diagram](./images/NaS.png)
+
+<br>
+<div align="center">
+<img src="./images/NaS.png" alt="Sodium sulfur battery cell diagram" height="600px">
+</div>
+<br>
 
 **Figure 5** - Diagram of the Sodium sulfur battery cell diagram, extracted from [SODIUM SULFUR BATTERY CELL EXPERIMENT (NaSBE)](https://ntrs.nasa.gov/api/citations/19970013741/downloads/19970013741.pdf)
 
@@ -140,11 +176,23 @@ Because of the relative impermeability of the solid electrolyte, the self-discha
 
 ![Sodium-sulfur battery diagram](./images/sodium_sulfur_diagram.png)
 
+<br>
+<div align="center">
+<img src="./images/sodium_sulfur_diagram.png" alt="Sodium-sulfur battery diagram" height="600px">
+</div>
+<br>
+
 **Figure 6** - Sodium-sulfur battery working diagram, extracted from [NGK INSULATORS, LTD](http://www.unido.or.jp/en/technology_db/4394/).
 
 During the discharge stage, the specific capacity tends to increase while the voltage is decreasing. It reaches a point where it reaches the maximum capacity, but the voltage would be so low that it could no longer maintain its power to feed the systems. 
 
-![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)  
+![Sodium-sulfur graphical behavior](./images/sodium_sulfur_behavior.png.jpg)
+
+<br>
+<div align="center">
+<img src="./images/sodium_sulfur_behavior.png.jpg" alt="Sodium-sulfur graphical behavior" height="500px">
+</div>
+<br>
 
 **Figure 7** - Sodium-sulfur battery voltage-specific capacity graphical behavior, extracted from [Research Progress toward Room Temperature Sodium Sulfur Batteries: A Review](https://www.mdpi.com/1420-3049/26/6/1535)
 
@@ -158,7 +206,7 @@ This section will consist of two main parts: the **Calculations** subsection, in
 
 ### Calculations
 
-The properties of the selected battery, sodium-sulpur, are shown in this table, extracted from the [Energy Storage Technologies for Future Planetary Science Missions, page. 44](https://solarsystem.nasa.gov/resources/549/energy-storage-technologies-for-future-planetary-science-missions/):
+The properties of the selected battery, sodium-sulphur, are shown in this table, extracted from the [Energy Storage Technologies for Future Planetary Science Missions, page. 44](https://solarsystem.nasa.gov/resources/549/energy-storage-technologies-for-future-planetary-science-missions/):
 
 |           Characteristic            | Na-S |
 |-------------------------------------|------|
@@ -171,13 +219,25 @@ The following plot illustrates the depletion of the total energy through 60 days
 
 To compare, the Perseverance rover, which is a massive mobile laboratory, can reach up to 900 watts during science activities. <sup>[TODO](https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/)</sup>
 
-![Energy depletion](./images/energy_depleted.png)  
+![Energy depletion](./images/energy_depleted.png)
+
+<br>
+<div align="center">
+<img src="./images/energy_depleted.png" alt="Energy depletion">
+</div>
+<br>
 
 **Figure 8** - Energy depleted by the system in 60 days, in function of time (in hours).
 
 If the required energy of the system increases, then its number of batteries also has a proportional increment. The following plot shows the number of batteries required by the system in function of its total energy demanded.
 
 ![Number of batteries](./images/number_batteries.png)  
+
+<br>
+<div align="center">
+<img src="./images/number_batteries.png" alt="Number of batteries">
+</div>
+<br>
 
 **Figure 9** - Number of batteries required by the system, in function of the needed energy (in Watts).
 
@@ -188,7 +248,13 @@ The LIVE system (Light in Venus Exploration) is an energy storage system that wo
 
 1. The adaptation of a bank of sodium-sulfur batteries to the landers of future space missions, we made the concept through the Venera 13 and 14 model and with an energy estimate through exhausting a research exercise that we will develop later in this document.
 
-![Venera 14](./images/venera_13_14.jpg)  
+![Venera 14](./images/venera_13_14.jpg)
+
+<br>
+<div align="center">
+<img src="./images/venera_13_14.jpg" alt="Venera 14" height="500px">
+</div>
+<br>
 
 **Figure 10** - Venera 14 3D model, extracted from [TURBOSQUID](https://www.turbosquid.com/3d-models/venera13-venera14-space-probe-3d-model-1865382)
 
